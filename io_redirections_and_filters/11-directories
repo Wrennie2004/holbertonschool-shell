@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -mindpath 1 -type d | wc -l
+find . -mindpath 1 -maxdepth 1 -type d | wc -l

@@ -1,2 +1,2 @@
 #!/bin/bash
-export BEST=School && set | grep School | grep -v _ | grep -v BASH_EXECUTION_STRING ; printenv | grep School | grep -v _ | grep -v BASH_EXECUTION_STRING
+export BEST='School'
